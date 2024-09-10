@@ -6,7 +6,7 @@ public class Dog extends Animal {
 
 	Dog(String name, int age, String furColor) {
 		super(name, age);
-		this.setFurColor(furColor);
+		this.furColor = furColor; 
 	}
 
 	public String getFurColor() {

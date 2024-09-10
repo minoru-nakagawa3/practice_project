@@ -6,8 +6,8 @@ public class Animal {
 	private int age;
 
 	Animal(String name, int age) {
-		this.setName(name);
-		this.setAge(age);
+		this.name = name;
+		this.age = age;
 	}
 
 	public String getName() {

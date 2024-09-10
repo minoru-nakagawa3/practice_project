@@ -6,7 +6,7 @@ public class Sparrow extends Animal{
 
 	Sparrow(String name, int age, boolean canFly) {
 		super(name,age);
-		this.setCanFly(canFly);
+		this.canFly = canFly;
 	}
 
 	public void isCanFly() {
